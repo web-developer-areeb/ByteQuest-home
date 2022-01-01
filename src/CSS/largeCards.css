@@ -1,0 +1,32 @@
+.large-cards {
+    padding-top: 4rem;
+}
+
+.large-cards__heading__main {
+    margin: 2rem auto;
+}
+
+.large-cards__card__container {
+    margin: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.large-cards__card {
+    background-color: #bbb;
+    height: 44rem;
+    width: 35rem;
+    border-radius: 1rem;
+}
+
+.large-cards__card:not(:last-of-type) {
+    margin-right: 6rem;
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .large-cards__card {
+        margin-bottom: 2rem;
+    }
+}

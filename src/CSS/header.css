@@ -1,0 +1,19 @@
+.hero {
+    /* width: 100%; */
+    background-color: #ccc;
+    height: 80vh;
+}
+
+/* .icon__left-arrow,
+.icon__right-arrow {
+    font-size: 5rem;
+    color: #555;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 3rem;
+}
+
+.icon__right-arrow {
+    right: 0;
+} */
